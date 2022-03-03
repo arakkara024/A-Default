@@ -1,0 +1,19 @@
+/* All Css */
+/* display:flex | align-item:center | justify-content:center */
+.d-aic-jcs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Active */
+.active{
+    border-bottom: 5px solid rgb(0, 158, 206); /* Blue */
+}
+
+/* Padding Top */
+.main-padding-top-1{
+    padding-top: 5rem;
+}
+
+

@@ -1,0 +1,85 @@
+
+/* Hamburger Menu */
+@media only screen and (max-width: 61.9375em){  /* 991px */
+    .hide-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 62em){ /* 992px */
+    .hide-desktop{
+        display: none;
+    }
+}
+
+
+/* ======================== Padding ======================== */
+
+@media only screen and (max-width: 35.9375em){ /* Padding Mobile (575px) */
+    .container{
+        width: 100%;
+        padding-right: .75rem;  /* 12px */
+        padding-left: .75rem;  /* 12px */
+        margin-right: auto;
+        margin-left: auto;
+    }
+   
+}
+
+
+/* ======================== CONTAINERS ======================== */
+
+                                /* 0px */
+@media only screen and (min-width: 0em){ /* Container Max */
+    .container-max{
+        width: 100%;
+    }
+
+    /* Grids */
+    .container-grid-by-s1-2{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+                                /* 576px */
+@media only screen and (min-width: 36em){  /* Small devices (portrait tablets and large phones)*/
+    .container{
+        max-width: 540px;
+        margin: auto auto;
+    }
+}
+                                /* 768px */
+@media only screen and (min-width: 48em){ /* Medium devices (landscape tablets) */
+    .container{
+        max-width: 720px;
+        margin: auto auto;
+    }
+
+    /* Grids */
+    .container-grid-s1-m2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+                                /* 992px */
+@media only screen and (min-width: 62em){ /* Large devices (laptops/desktops) */
+    .container{
+        max-width: 960px;
+        margin: auto auto;
+    }
+}
+
+                                /* 1200px */
+@media only screen and (min-width: 75em){  /* Extra large devices (large laptops and desktops, 1200px and up) */
+    .container{
+        max-width: 1140px;
+        margin: auto auto;
+    }
+}
+                                /* 1400px */
+@media only screen and (min-width: 87.5em){ 
+    .container{
+        max-width: 1320px;
+        margin: auto auto;
+    }
+}
