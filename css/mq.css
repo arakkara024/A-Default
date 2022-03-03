@@ -16,9 +16,14 @@
 /* ======================== Padding ======================== */
 
 @media only screen and (max-width: 35.9375em){ /* Padding Mobile (575px) */
-    .header{
-        padding: 0px 12px;
+    .container{
+        width: 100%;
+        padding-right: .75rem;  /* 12px */
+        padding-left: .75rem;  /* 12px */
+        margin-right: auto;
+        margin-left: auto;
     }
+   
 }
 
 
@@ -28,6 +33,12 @@
 @media only screen and (min-width: 0em){ /* Container Max */
     .container-max{
         width: 100%;
+    }
+
+    /* Grids */
+    .container-grid-by-s1-2{
+        display: grid;
+        grid-template-columns: 100%;
     }
 }
                                 /* 576px */
@@ -42,6 +53,12 @@
     .container{
         max-width: 720px;
         margin: auto auto;
+    }
+
+    /* Grids */
+    .container-grid-s1-m2{
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 }
                                 /* 992px */
